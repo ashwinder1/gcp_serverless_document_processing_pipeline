@@ -1,0 +1,10 @@
+# Example terraform.tfvars
+# Copy this file to terraform.tfvars and update values with your GCP configuration:
+# cp terraform.tfvars.example terraform.tfvars
+
+project_id      = "your-gcp-project-id"
+region          = "us-central1"
+bucket_name     = "your-unique-bucket-name"
+dataset_id      = "document_processing"
+table_id        = "metadata"
+processor_image = "gcr.io/your-gcp-project-id/document-processor:latest"

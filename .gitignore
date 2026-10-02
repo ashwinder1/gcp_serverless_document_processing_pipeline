@@ -1,0 +1,45 @@
+# Environment files & Secrets
+.env
+.env.*
+!.env.example
+*.env
+
+# GCP & Service Account credentials / keys
+*key*.json
+*secret*.json
+credentials.json
+service-account-key.json
+client_secret*.json
+
+# Terraform files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Python virtual environment and bytecode
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
